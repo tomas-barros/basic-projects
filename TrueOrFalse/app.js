@@ -6,8 +6,12 @@ const
     button = document.getElementById('btn');
 
 button.addEventListener('click', function() {
+    let
+        firstValue = firstInput.value,
+        secondValue = secondInput.value;
 
-    if (firstInput.value === secondInput.value) {
+
+    if (firstValue === secondValue) {
         console.log('Equal!');
         result.innerHTML = 'True';
     } else {
